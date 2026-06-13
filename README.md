@@ -31,11 +31,13 @@ A modern, responsive portfolio website featuring a full-width animated hero slid
 <br>
 
 ## 📁 Project Structure
+```bash
 nexus-portfolio/
 ├── index.html
 ├── script.js
 ├── styles.css
 └── README.md
+```
 
 <br>
 
