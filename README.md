@@ -24,7 +24,7 @@ A modern, responsive portfolio website featuring a full-width animated hero slid
 
 ## 📁 Project Structure
 nexus-portfolio/
-|- index.html
+├── index.html
 ├── script.js
 ├── styles.css
 └── README.md
@@ -40,7 +40,7 @@ nexus-portfolio/
 
 ## 🧪 How to Run Locally
 1. Clone the repo:  
-   `git clone https://github.com/YOUR_USERNAME/nexus-portfolio.git`
+   `git clone https://github.com/Umaima-Manzoor/Nexus-Portfolio.git`
 2. Open `index.html` in any modern browser.
 3. No build steps or dependencies required.
 
