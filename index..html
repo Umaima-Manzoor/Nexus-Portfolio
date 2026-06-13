@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexus - Creative portfolio with dynamic hero slider, services, projects, and testimonials.">
+  <title>Nexus - Creative Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#" class="nav-logo" aria-label="Nexus home">
+      Nexus<span class="dot"></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider" id="hero" aria-label="Featured projects slider">
+
+    <!-- Floating decorative shapes -->
+    <div class="floating-shapes" aria-hidden="true">
+      <div class="floating-shape"></div>
+      <div class="floating-shape"></div>
+      <div class="floating-shape"></div>
+    </div>
+
+    <!-- Slide counter -->
+    <div class="slide-counter" aria-live="polite">
+      <span class="current" id="slideCurrent">01</span>
+      <span class="divider">/</span>
+      <span class="total" id="slideTotal">05</span>
+    </div>
+
+    <!-- Navigation arrows -->
+    <div class="slider-arrows">
+      <button class="slider-arrow" id="prevSlide" aria-label="Previous slide">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <button class="slider-arrow" id="nextSlide" aria-label="Next slide">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <!-- Dots -->
+    <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Slide indicators"></div>
+
+    <!-- Progress bar -->
+    <div class="slide-progress" aria-hidden="true">
+      <div class="slide-progress-bar" id="progressBar"></div>
+    </div>
+  </section>
+
+  <!--  Services -->
+  <section class="section" id="services">
+    <div class="reveal">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-title">Services Built for Impact</h2>
+      <p class="section-subtitle">We transform ideas into digital experiences that captivate, convert, and scale. Every project starts with strategy and ends with results.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid">
+    </div>
+  </section>
+
+  <!-- Stats  -->
+  <section class="stats-section" aria-label="Company statistics">
+    <div class="stats-grid" id="statsGrid">
+    </div>
+  </section>
+
+  <!-- Projects  -->
+  <section class="section projects-section" id="projects">
+    <div class="reveal">
+      <span class="section-label">Selected Work</span>
+      <h2 class="section-title">Projects That Speak</h2>
+      <p class="section-subtitle">A curated selection of recent work across industries - from AI-driven platforms to immersive brand experiences.</p>
+    </div>
+    <div class="projects-grid" id="projectsGrid">
+    </div>
+  </section>
+
+  <!-- Testimonials  -->
+  <section class="section" id="testimonials">
+    <div class="reveal">
+      <span class="section-label">Client Voices</span>
+      <h2 class="section-title">Trusted by Teams Worldwide</h2>
+      <p class="section-subtitle">Real feedback from the people we've worked with - no fluff, just honest results.</p>
+    </div>
+    <div class="testimonials-grid" id="testimonialsGrid">
+    </div>
+  </section>
+
+  <!-- CTA  -->
+  <section class="cta-section" id="contact">
+    <div class="reveal">
+      <span class="section-label">Start a Project</span>
+      <h2 class="section-title">Ready to Build Something Remarkable?</h2>
+      <p class="section-subtitle">Whether you have a clear vision or just a spark of an idea, let's talk. The best work starts with a conversation.</p>
+      <button class="btn-primary" id="ctaBtn" style="margin: 0 auto;">
+        <i class="fas fa-paper-plane"></i>
+        Let's Talk
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" aria-label="Nexus home">Nexus<span class="dot"></span></a>
+        <p>Crafting digital experiences at the intersection of design, technology, and strategy since 2019.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">AI Integration</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">Brand Strategy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>2024 Nexus. All rights reserved.</span>
+      <span>Designed with intention, built with precision.</span>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
