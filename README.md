@@ -49,7 +49,7 @@ Deployed on [Vercel](https://nexus-portfolio-demo.vercel.app/).
 Automatic deploys from the `main` branch.
 
 ## 👩‍💻 Author
-Umaima Manzoor – [Your GitHub](https://github.com/Umaima-Manzoor/)
+Umaima Manzoor – [My GitHub](https://github.com/Umaima-Manzoor/)
 
 ## 📄 License
 MIT
