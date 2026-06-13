@@ -3,7 +3,7 @@
 A modern, responsive portfolio website featuring a full-width animated hero slider, dynamic content from JSON, services section, project gallery, testimonials, and scroll-triggered animations.
 
 ## 🚀 Live Demo
-[View on Vercel](https://your-vercel-url.vercel.app)  *(replace after deploy)*
+[View on Vercel](https://nexus-portfolio-demo.vercel.app/) 
 
 ## 📋 Task Requirements Fulfilled
 - ✅ Full-width hero slider with auto-rotate (4.5s)
@@ -24,7 +24,7 @@ A modern, responsive portfolio website featuring a full-width animated hero slid
 
 ## 📁 Project Structure
 nexus-portfolio/
-├── index.html
+|- index.html
 ├── script.js
 ├── styles.css
 └── README.md
@@ -45,11 +45,11 @@ nexus-portfolio/
 3. No build steps or dependencies required.
 
 ## 📦 Deployment
-Deployed on [Vercel](https://vercel.com).  
+Deployed on [Vercel](https://nexus-portfolio-demo.vercel.app/).  
 Automatic deploys from the `main` branch.
 
 ## 👩‍💻 Author
-Your Name – [Your GitHub](https://github.com/YOUR_USERNAME)
+Umaima Manzoor – [Your GitHub](https://github.com/Umaima-Manzoor/)
 
 ## 📄 License
 MIT
