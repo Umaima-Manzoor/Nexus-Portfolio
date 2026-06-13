@@ -15,6 +15,7 @@ A modern, responsive portfolio website featuring a full-width animated hero slid
 - ✅ Semantic HTML5 & accessibility (alt text, keyboard nav)
 - ✅ Optional: mouse parallax effect on floating shapes
 
+
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3 (variables, grid, flexbox, keyframes)
