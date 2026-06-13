@@ -6,6 +6,7 @@ A modern, responsive portfolio website featuring a full-width animated hero slid
 
 ## 🚀 Live Demo
 [View on Vercel](https://nexus-portfolio-demo.vercel.app/) 
+
 <br>
 
 ## 📋 Task Requirements Fulfilled
